@@ -138,23 +138,15 @@ GOOGLE_DIRECT_EXACT_EXCLUDE = frozenset({
     "notebooklm.google.com",
     "labs.google.com",
     "meet.google.com",
-    "accounts.google.com",
-    "ogs.google.com",
     "mail.google.com",
     "calendar.google.com",
-    "drive.google.com",
     "docs.google.com",
     "chat.google.com",
-    "photos.google.com",
-    "maps.google.com",
-    "myaccount.google.com",
     "contacts.google.com",
     "classroom.google.com",
     "keep.google.com",
     "play.google.com",
-    "translate.google.com",
-    "assistant.google.com",
-    "lens.google.com",
+    "assistant.google.com"
 })
 GOOGLE_DIRECT_SUFFIX_EXCLUDE: tuple[str, ...] = (
     ".meet.google.com",
@@ -213,6 +205,14 @@ SNI_REWRITE_SUFFIXES: tuple[str, ...] = (
     "myaccount.google.com",
     "takeout.google.com",
     "takeout-download.usercontent.google.com",
+    "images.google.com",
+    "lens.google.com",
+    "translate.google.com",
+    "drive.google.com",
+    "photos.google.com",
+    "accounts.google.com",
+    "ogs.google.com",
+    "maps.google.com"
 )
 
 
